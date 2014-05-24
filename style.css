@@ -1,0 +1,10 @@
+.me {
+  background: url("nikolaus.png") 0 0 no-repeat;
+  -webkit-animation: play 5s steps(16) infinite;
+  width: 230px;
+  height: 200px;
+}
+@-webkit-keyframes play {
+  0% {background-position: 0 0; } 
+  100% {background-position: -3980px 0; } 
+}
